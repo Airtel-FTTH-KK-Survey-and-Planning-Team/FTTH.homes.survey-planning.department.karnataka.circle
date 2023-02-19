@@ -1,0 +1,118 @@
+<html>
+
+
+<style>
+.tab {
+  float: left;
+  position:absolute;
+  border: 1px solid #ccc;
+  background-color: #262626;
+  width: 15%;
+  height:70%;
+}
+
+.tabcontent {
+
+  
+  float: left;
+  
+  border: 1px solid #ccc;
+  width: 100%;
+  border-left: none;
+  height: 100%;
+}
+
+.btn {
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-top:5px;
+  background-color:black;
+  color:white;
+ } 
+iframe {
+  border-color:#f4a46000;
+
+}
+
+
+</style>
+
+
+
+<body style="background-color:#d1d1d1;">
+
+
+
+	<div style="height:28%;">
+	
+		<div style="text-align:center;">
+		
+			<img  src="img/airtel.png" style="height:100;">
+	
+		</div>
+		
+		<div style="background-color:#5a5a5a;padding-top:10;padding-bottom:10;">
+		
+			<h1 style="text-align:center;color:white;">Survey & Planning Department - Karnataka</h1>
+		
+		</div>
+		
+		
+	
+		
+	</div>
+	
+	<div style="height:72%;">
+	
+		<div id="demo2" class="tabcontent" style="text-align:center;">
+		
+			<h2>Wlecome to Airtel FTTH Survey & Planning Portal</h2>
+		
+		</div>
+	
+		<div class="tab">
+			<button onclick="aa()" class="btn" style="width:100%;">Home</button><br>
+			<button onclick="bb()" class="btn" style="width:100%;">Weekly Tracker</button><br>
+		
+		
+		
+	
+		</div>
+	
+	
+	
+		
+	</div>	
+
+
+</body>
+
+
+<script>
+
+
+	function aa(){
+	
+		document.getElementById("demo2").innerHTML="<h2>Wlecome to Airtel FTTH Survey & Planning Portal</h2>";
+
+	}
+
+	function bb(){
+	
+		document.getElementById("demo2").innerHTML="<iframe src=index2.html style='width:100%; height:100%' ></iframe>";
+
+	}
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</html>
